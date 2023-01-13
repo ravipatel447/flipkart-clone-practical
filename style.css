@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    padding: 5px 20px;
+}
+.products-ad-block{
+    display: flex;
+}
+.products-block{
+    display: flex;
+}
+.product-name-bold{
+    text-decoration: solid;
+    font-weight: bold;
+    color: black;
+}
