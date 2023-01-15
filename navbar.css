@@ -23,6 +23,8 @@ nav {
   text-decoration: none;
 }
 .logo-explore {
+  font-style: italic;
+  font-size: 0.8em;
   color: white;
 }
 .logo-explore:hover {
