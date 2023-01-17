@@ -95,6 +95,9 @@ nav {
 #more:hover .more-expand{
   transform: rotate(90deg);
 }
+#more:hover .expand-content-box{
+  display: block;
+}
 /* flipkart more item end */
 
 /* flipkart cart item start */
@@ -104,4 +107,48 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+.expand-content-box{
+  display: none;
+  border-radius: 2px;
+  position: absolute;
+  color: black;
+  z-index: 10;
+  top: 40px;
+  width: 260px;
+}
+.Arrow-up-icon{
+    width: 0; 
+    height: 0; 
+    border-left: 19px solid transparent;
+    border-right: 19px solid transparent;
+    border-bottom: 19px solid white;
+    text-align: center;
+    margin: 0px auto
+}
+.context-unorder-list{
+  background-color: white;
+  list-style: none;
+}
+.expand-list-item{
+  height: 50px;
+  align-items: center;
+  display: flex;
+  border-bottom: 1px solid #f0f0f0;
+}
+.expand-list-item:hover{
+  background-color: #f1f3f6;
+}
+.expand-list-item svg{
+  margin: 8px 12px;
+}
+.expand-list-item-title{
+  font-weight: 300;
+  font-size: 0.98em;
+}
+.expand-list{
+  box-shadow: 0 4px 16px 0 rgb(0 0 0 / 20%);
 }
